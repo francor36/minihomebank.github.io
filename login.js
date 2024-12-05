@@ -64,7 +64,7 @@ function validar() {
     if (encontrado) {
 
         alert("Bienvenido")
-        window.location.href = "./index.html";
+        window.location.href = "./home.html";
     } else {
         alert("usuario o contraseña incorrectos")
     }
