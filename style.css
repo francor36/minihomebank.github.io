@@ -1,0 +1,196 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.cabecera .oculto {
+    display: none;
+}
+
+.lugar .oculto {
+    display: none;
+}
+
+
+.cabecera {
+    display: flex;
+    height: 60px;
+    width: 100%;
+    background-color: #0060bf;
+}
+
+.login {
+    margin-left: auto;
+}
+
+.botones {
+    display: flex;
+    margin-right: auto;
+    justify-content: space-between;
+
+}
+
+.botones button {
+    margin: 0 10px;
+    /* Ajusta el valor según el espaciado que desees */
+}
+
+#logueo {
+    height: 95%;
+    width: 85px;
+    border-radius: 10px;
+    box-shadow: 5px;
+    padding: 10px;
+    border: none;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+    cursor: pointer;
+}
+
+.formularios,
+.Datos, .registrarse,.transferir {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: #4f7ac5;
+    width: 320px;
+    border-radius: 10px;
+    padding: 20px;
+    border: none;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+
+
+}
+
+body{
+    background-color: #ced8ea;
+}
+
+.lugar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50vh;
+    position: relative;
+}
+
+.campo #iniciar {
+    height: 95%;
+    width: 85px;
+    border-radius: 10px;
+
+    padding: 10px;
+    border: none;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+    cursor: pointer;
+}
+
+.campo #registrar {
+    height: 95%;
+    width: 85px;
+    border-radius: 10px;
+
+    padding: 10px;
+    border: none;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+    cursor: pointer;
+}
+
+.campo #register {
+    height: 95%;
+    width: 85px;
+    border-radius: 10px;
+
+    padding: 10px;
+    border: none;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+    cursor: pointer;
+}
+
+.campo {
+    display: flex;
+    font-family: Arial, Helvetica, sans-serif;
+    align-items: center;
+    margin-bottom: 15px;
+    justify-content: space-between;
+    margin-bottom: 15px;
+}
+
+.registrarse {
+    position: absolute;
+}
+
+label {
+    width: 80px;
+}
+
+input {
+    width: calc(100% - 90px);
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: #4a729b;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #063564;
+}
+.Info {
+    border-collapse: collapse; /* Elimina los espacios entre celdas */
+    width: 100%; /* Asegura que la tabla use todo el ancho disponible */
+}
+
+.Info th, .Info td {
+    border: 1px solid #ddd; /* Añade un borde ligero */
+    padding: 8px; /* Espaciado interno */
+}
+.Info th {
+    background-color: #4CAF50; /* Color de fondo verde */
+    color: white; /* Color del texto blanco */
+    text-align: left; /* Alineación del texto */
+}
+.Info tr:nth-child(even) {
+    background-color: #f2f2f2; /* Color de fondo gris claro para filas pares */
+}
+
+.Info tr:hover {
+    background-color: #ddd; /* Color de fondo al pasar el mouse */
+}
+.Info th:nth-child(1),
+.Info td:nth-child(1) {
+    width: 30%; /* Ancho de la columna Nombre */
+}
+
+.Info th:nth-child(2),
+.Info td:nth-child(2) {
+    width: 5%; /* Ancho de la columna separadora */
+}
+
+.Info th:nth-child(3),
+.Info td:nth-child(3) {
+    width: 30%; /* Ancho de la columna Apellido */
+}
+
+.Info th:nth-child(4),
+.Info td:nth-child(4) {
+    width: 5%; /* Ancho de la columna separadora */
+}
+
+.Info th:nth-child(5),
+.Info td:nth-child(5) {
+    width: 30%; /* Ancho de la columna Saldo */
+}
+.Info {
+    font-family: Arial, sans-serif; /* Cambia la fuente de la tabla */
+    border: 1px solid #ddd; /* Borde alrededor de la tabla */
+    margin-top: 20px; /* Espacio arriba de la tabla */
+}

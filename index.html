@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+    <div class="cabecera">
+        <div class="botones ">
+            <button id="Ingreso">Ingresar Datos</button>
+            <button id="Transferir">Transferir Dinero</button>
+            <button id="Salir">Cerrar sesion</button>
+        </div>
+
+    </div>
+    <div class="lugar">
+        <div class="formularios oculto">
+            <div class="campo">
+                <label for="usuario">Usuario</label>
+                <input type="text" id="usuario" required>
+            </div>
+            <div class="campo">
+                <label for="contraseña">Contraseña</label>
+                <input type="password" id="contraseña" required>
+            </div>
+            <div class="campo">
+                <button id="iniciar">Login</button>
+            </div>
+            <div class="campo">
+                <button id="registrar">registrar</button>
+            </div>
+        </div>
+        <div class="registrarse oculto">
+            <div class="campo">
+                <label for="usuario">Usuario</label>
+                <input type="text" id="usuarios" required>
+            </div>
+            <div class="campo">
+                <label for="contraseña">Contraseña</label>
+                <input type="password" id="contraseñas" required>
+            </div>
+            <div class="campo">
+                <button id="register">Crear</button>
+            </div>
+        </div>
+        <div class="transferir oculto">
+            <div class="campo">
+                <label for="cuentaOrigen">Cuenta Origen</label>
+                <select id="cuentaOrigen">
+                    <!-- Las opciones se llenarán dinámicamente con JavaScript -->
+                </select>
+            </div>
+            <div class="campo">
+                <label for="cuentaDestino">Cuenta Destino</label>
+                <select id="cuentaDestino">
+                    <!-- Las opciones se llenarán dinámicamente con JavaScript -->
+                </select>
+            </div>
+            <div class="campo">
+                <label for="montoTransferir">Monto a Transferir</label>
+                <input type="number" id="montoTransferir" required>
+            </div>
+            <div class="campo">
+                <button id="realizarTransferencia">Transferir</button>
+            </div>
+        </div>
+
+        <div class="Datos oculto">
+            <div class="Solicitud ">
+                <div class="campo">
+                    <label for="Nombre">Nombre</label>
+                    <input type="text" id="Nombre" required>
+                </div>
+                <div class="campo">
+                    <label for="Apellido">Apellido</label>
+                    <input type="text" id="Apellido" required>
+                </div>
+                <div class="campo">
+                    <label for="Saldo">Saldo</label>
+                    <input type="number" id="Saldo" required>
+                </div>
+                <div class="campo">
+                    <button id="Guardar">Guardar</button>
+                </div>
+            </div>
+        </div>
+        <table class="Info" id="tablaDatos">
+            <thead>
+                <th>Nombre</th>
+                <th>Apellido</th>
+                <th>Saldo</th>
+                <th>ID</th>
+            </thead>
+            <tbody>
+
+            </tbody>
+        </table>
+    </div>
+    <script src="main.js" type="module"></script>
+
+</body>
+
+</html>
